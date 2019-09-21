@@ -1,5 +1,5 @@
-name: ISEE 2019 -- Template
+name: YourEuro
 markdown: kramdown
-baseurl: /isee2019-ARTexceptionals
+baseurl: /youreuro
 permalink: /blog/:year/:month/:day/:title/
 theme: jekyll-theme-modernist
