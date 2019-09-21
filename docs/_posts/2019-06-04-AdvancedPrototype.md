@@ -19,13 +19,13 @@ date: 2019-06-04
 <p><b>Controller:</b> MoneyControlManager is our main controller. Based on the request from the user it will perform operations on the model and modify the display accordingly.</p>
 
 <p><b>View:</b> DetailInputActivity is our main view through which user gives the transaction details and it notifies MoneyControlManager when user presses save button. </p>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/MVCArchitecture.jpeg?raw=true" width="800" height="350"><br>
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/MVCArchitecture.jpeg?raw=true" width="800" height="350"><br>
 <p><b>Builder pattern:</b> Alert dialogs are created using builder patterns. Using builder pattern multiple representations can be made using same construction method. We can include only the required fields while constructing a Alert dialog using builder pattern.</p>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.AlertDialog.PNG?raw=true" width="750" height="325">
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.AlertDialog.PNG?raw=true" width="750" height="325">
 <br>
 <p><b>Adapter design pattern:</b> Adapter design pattern are used for setting recycler views. Adapter controls the Recycler view by getting data directly from the database. Our CashRecordAdapter will be used to set data in recycler views in MainActivity and it will get the data from CashRecordDatabase. MoneyControlManager will have CashRecordAdapter instance (MVC pattern).</p>
 
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.AdapterviewFinal.jpeg?raw=true" width="750" height="325">
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.AdapterviewFinal.jpeg?raw=true" width="750" height="325">
 <br>
 
 <p><b>Singleton pattern:</b> Our controller follows singleton pattern, since it interacts with the database and we want this interaction to be synchronised. Meaning multiple objects of the controller should not interact with database simultaneously. </p>
@@ -45,7 +45,7 @@ We are using pending intent to get triggered at specific time and using broadcas
 <br>
 <h2>Source code</h2>
 <p><b>Indentations:</b> Whenever new block of code is opened, a proper indentation is provided and when the block ends, the indent returns to the previous indent level. This is applied for both code and comments throughout the block.</p>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.IndentationFinal.PNG?raw=true" width="750" height="325">
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.IndentationFinal.PNG?raw=true" width="750" height="325">
 <br>
 <p><b>Comments:</b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Description of each class is written using java comments<br>     
@@ -53,11 +53,11 @@ We are using pending intent to get triggered at specific time and using broadcas
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. Inline comments to explain the code logic if necessary<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d. In case partial code is getting merged, comment needs to have ‘TODO:’</p>
 <p>Class comments snapshot: </p>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.DescriptionClassFinal.PNG?raw=true" width="750" height="125">
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.DescriptionClassFinal.PNG?raw=true" width="750" height="125">
 <p>Method comments snapshot: </p>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.DescriptionMethodFinal.PNG?raw=true" width="750" height="200">
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.DescriptionMethodFinal.PNG?raw=true" width="750" height="200">
 <p>Partial comments snapshot: </p>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.partialcodeFinal.PNG?raw=true" width="750" height="125">
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.partialcodeFinal.PNG?raw=true" width="750" height="125">
 <br>
 <h2>Naming conventions:</h2>
 <p><b>Variables:</b> All variable names are descriptive and written in lowerCamelCase<br>
@@ -71,11 +71,11 @@ We are using pending intent to get triggered at specific time and using broadcas
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c.	All database classes are in one package<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d.	All other classes will be kept in main package</p>
 <p>Packaging screenshot:</p>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.packaging.PNG?raw=true" width="250" height="250">
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.packaging.PNG?raw=true" width="250" height="250">
 <br>
 <h2>Annotations</h2> 
 <p>Annotations applicable to a method or constructor appears right above the its declaration, and each annotation is listed on a line of its own. Example: A method is marked with the @Override annotation whenever a class method overriding a superclass method or class method implementing an interface method.</p>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.annotationFinal.PNG?raw=true" width="750" height="150">
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.annotationFinal.PNG?raw=true" width="750" height="150">
 <br>
 
 <h2>Generalisation</h2>
@@ -86,13 +86,13 @@ We are using pending intent to get triggered at specific time and using broadcas
 
 <h2>File ownership</h2>
 <p>File ownership for each file is provided using Javadoc comments. This will be useful to identify the developer, when we see any bugs or customer comes with an escalation.</p><br>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.OwnerShipFinal.PNG?raw=true" width="750" height="125">
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.OwnerShipFinal.PNG?raw=true" width="750" height="125">
 <br>
 <p>Initially everyone is briefed on what coding conventions that will be followed in our project and also after each developer raises a merge request, the reviewers will check the changes thoroughly and give necessary comments and actions to be taken care of before merging. Once the comments are taken care then the code will be merged into main branch. By this way we make sure that everyone follows the necessary coding conventions.</p>
 
- <img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/Advanced_Prototype1.png?raw=true" width="800" height="270"><br><br>
+ <img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/Advanced_Prototype1.png?raw=true" width="800" height="270"><br><br>
  
- <img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/AdvancedPrototype2.png?raw=true" width="800" height="350">
+ <img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/AdvancedPrototype2.png?raw=true" width="800" height="350">
 <hr><br>
 
 <h1>Context of use</h1>
@@ -104,30 +104,30 @@ We are using pending intent to get triggered at specific time and using broadcas
 5. What does the user expect from the App?</p>
 <br>
 <p><b>Persona Student: John Snow</b></p>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.persona1.PNG?raw=true" width="550" height="600"><br><br>
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.persona1.PNG?raw=true" width="550" height="600"><br><br>
 <p><b>Persona Professionals: Penny Hofstetter</b></p>
-<img src=" https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.persona2.PNG?raw=true" width="550" height="600"><br>
+<img src=" https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.persona2.PNG?raw=true" width="550" height="600"><br>
 <hr>
 <h1>Design solutions</h1>
 <p>Find the design solutions provided for two user stories with sequence of screens</p>
 <p><b>Design solution 1:</b> User should be able to add new cash record. Click on add new cash record. Then add the transaction details and click on save button. User should be able to see new cash record displayed in home screen.</p>
 <div class="imageClass">	
-<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.1.MainPage.jpeg?raw=true" width="250" height="480"> 
+<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.1.MainPage.jpeg?raw=true" width="250" height="480"> 
 <div class="imageClass">
-<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.2.DetailActivity.jpeg?raw=true" width="250" height="480">
+<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.2.DetailActivity.jpeg?raw=true" width="250" height="480">
 	<div class="imageClass">
-<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.4.Added.jpeg?raw=true" width="250" height="480">
+<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.4.Added.jpeg?raw=true" width="250" height="480">
 </div>
 	</div>
 </div>
 
 <p><b>Design solution 2:</b> User should be able to configure app from Settings screen. First go to settings screen. Click on Enable Pin. Then set the desired pin in Set pin dialog. User should get "Your PIN has been set" message.</p>
 <div class="imageClass">
-	<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.5.SettingsScreen.jpeg?raw=true" width="250" height="480">
+	<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.5.SettingsScreen.jpeg?raw=true" width="250" height="480">
 	<div class="imageClass">
-		<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.6.SetPIN.jpeg?raw=true" width="250" height="480">
+		<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.6.SetPIN.jpeg?raw=true" width="250" height="480">
 		<div class="imageClass">
-			<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.7.PINsetsuccesful.jpeg?raw=true" width="250" height="480">
+			<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.7.PINsetsuccesful.jpeg?raw=true" width="250" height="480">
 		</div>
 	</div>
 	</div>
@@ -142,17 +142,17 @@ We are using pending intent to get triggered at specific time and using broadcas
 Tool tips: Tool tips are added where the user might unknowingly submit wrong data. Like, when user tries to save a transaction without inputting an amount, then the tool tip “amount field cannot be empty” will appear on screen.<br>
 Toast messages: Necessary Toast messages are provided for execution of certain actions. This will help the user understand the cause of any failures.</p>
 <div class="imageClass">
-	<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.8.ToolTip.jpeg?raw=true" width="250" height="480">
+	<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.8.ToolTip.jpeg?raw=true" width="250" height="480">
 	<div class="imageClass">
-		<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.9.Wrong password.jpeg?raw=true" width="250" height="480">
+		<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.9.Wrong password.jpeg?raw=true" width="250" height="480">
 	</div>
 	</div>
 <br>
 <p><b>Only show what user need and when he needs it:</b> User will be overwhelmed if he sees too much of options at the first screen. So, break the tasks and hide the unnecessary options. Only show options which are really needed and slowly teach the user about advanced tasks as he progresses.</p>
 <div class="imageClass">
-	<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.2.DetailActivity.jpeg?raw=true" width="250" height="480">
+	<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.2.DetailActivity.jpeg?raw=true" width="250" height="480">
 	<div class="imageClass">
-		<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.15Recurringactivity.jpeg?raw=true" width="250" height="480">
+		<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.15Recurringactivity.jpeg?raw=true" width="250" height="480">
 	</div>
 	</div>
 <br>
@@ -160,20 +160,20 @@ Toast messages: Necessary Toast messages are provided for execution of certain a
 <br>
 <p><b>Do the heavy lifting for users:</b> Let the user pick his input from dropdown list or by providing time & date pickers wherever necessary. Constrain to numerical pads instead of qwerty pad, where only number input are expected. This way we can also restrict any random inputs from user, wherever we need a specific format of inputs from user and user can successfully complete the task with minimal efforts.</p>
 <div class="imageClass">
-	<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.10.TimePicker.jpeg?raw=true" width="250" height="480">
+	<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.10.TimePicker.jpeg?raw=true" width="250" height="480">
 	<div class="imageClass">
-		<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.3.Datepicker.jpeg?raw=true" width="250" height="480">
+		<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.3.Datepicker.jpeg?raw=true" width="250" height="480">
 		<div class="imageClass">
-		<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.13.Category.jpeg?raw=true" width="250" height="480">
+		<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.13.Category.jpeg?raw=true" width="250" height="480">
 		</div>
 	</div>
 	</div>
 <br>
 <p><b>User Control and Freedom:</b> This application is provided with Navigation bar using which user can easily launch any activity. All dialogs have a cancel option where he can cancel if he doesn’t want to continue with the operation.</p>
 <div class="imageClass">
-	<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.11.NavigationBar.jpeg?raw=true" width="250" height="480">
+	<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.11.NavigationBar.jpeg?raw=true" width="250" height="480">
 	<div class="imageClass">
-		<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.12CancelOption.jpeg?raw=true" width="250" height="480">
+		<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.12CancelOption.jpeg?raw=true" width="250" height="480">
 	</div>
 	</div>
 <hr><br>
@@ -197,22 +197,22 @@ Toast messages: Necessary Toast messages are provided for execution of certain a
 
 <p>Because of these added features we have changes in our user stories and Class diagram</p>
 <p>Changes in User stories: There have been addition of few stories in user stories due to added requirements</p>
-<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.UserStoriesChanged.png?raw=true" width="550" height="450">
+<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.UserStoriesChanged.png?raw=true" width="550" height="450">
 <p>Changes in class Diagram: There have been some modifications and additions of classes<br>
 1. Added long threshold in category class for setting threshold.<br>
 2. Added new class for category database<br>
 3. Added new mothods exportDbpdf() and getPDF() in MoneyControllerManager</p>
-<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.NewClassDiagram.jpeg?raw=true" width="900" height="650"><br><hr>
+<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.NewClassDiagram.jpeg?raw=true" width="900" height="650"><br><hr>
 <h1>App screenshots</h1>
 <p>Most of the actual app screen shots are already added above. Please find some extra app screenshots.</p>
 <p>First image shows history screen where user can see history of transactioins<br>In second screen user can visualise his transactions in the form of PIE graph.</p>
 <div class="imageClass">
-	<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.14.History.jpeg?raw=true" width="250" height="480">
+	<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.14.History.jpeg?raw=true" width="250" height="480">
 	<div class="imageClass">
-		<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/3.PIEChart.jpeg?raw=true" width="250" height="480">
+		<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/3.PIEChart.jpeg?raw=true" width="250" height="480">
 	</div>
 	</div><hr><br>
 <h1>Working Prototype</h1>
-  <p> Please find the downloadable application link here: <a href="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/releases/download/release/app-debug.apk">Downlaod</a></p>
+  <p> Please find the downloadable application link here: <a href="https://github.com/artexceptionals/youreuro/releases/download/release/app-debug.apk">Downlaod</a></p>
 <br><hr>
 <h3><i><strong>Thank You for visiting our blog!! That’s all for Now. Stay tuned for more updates on our project!!</strong></i></h3>
