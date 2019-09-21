@@ -100,7 +100,7 @@ printf(“Deliver Awesome apps”);<br/>
 <img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/WhatsApp.jpeg?raw=true" width="100" height="100">
    </div>
  <div class="column">
-<img src="github.com/artexceptionals/youreuro/blob/master/docs/images/Team.jpeg?raw=true" width="100" height="100">
+<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/Team.jpeg?raw=true" width="100" height="100">
  </div>
 </div>
    
