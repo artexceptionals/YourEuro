@@ -51,7 +51,7 @@ date: 2019-05-13
 
 <h1>User Stories</h1>
 <p> Our project is divided in to four Epics, each Epic consists of Stories and each story will be further divided as Tasks. The same Tasks have been carried to our Scrum board. User stories diagram of our project is as shown below: </p>
-<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/UserStoriesFinal.png?raw=true" width="1000" height="800">
+<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/UserStoriesFinal.png?raw=true" width="1000" height="800">
 <hr><br>
 <h1>Estimated Time</h1>
 <p>Time management is one of the challenges that we are facing. So, we have assigned estimated time for each task and estimated number of sprints for user stories. 
@@ -98,7 +98,7 @@ In which the user can do three kinds of filtering for the transactions based on 
 <h1>Development Strategy</h1>
 <h2>Sprint Handling</h2>
 <p>In scrum board all the tasks will be picked from user stories for each sprint and all the boards/tasks will be assigned a priority and a requirement label. Using Backlog board, we will be tracking all the pending tasks and bugs. For next sprint tasks will be taken from Backlog board based on priority</p>
-<img src="https://github.com/DBSE-teaching/isee2019-ARTexceptionals/blob/master/docs/images/ScrumBoardTasksLabels.png?raw=true" width="800" height="600">
+<img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/ScrumBoardTasksLabels.png?raw=true" width="800" height="600">
 <p>Scrum Board</p>
 <img src="https://github.com/artexceptionals/youreuro/blob/master/docs/images/Backlog.png?raw=true" width="800" height="600" >
 <p>Backlog Board</p>
